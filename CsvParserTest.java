@@ -27,6 +27,7 @@ public class CsvParserTest {
         assertEquals("Appalachian College Association Central Library (ACA)", parser.getCellValue("Name", 20));
 
         // empty rows
+        // none of the indixes correspond to assert value in the test scope.
         assertEquals("445885", parser.getCellValue("AMS Subscription", 11));
         assertEquals("", parser.getCellValue("AMS Subscription", 12));
 
