@@ -1,5 +1,7 @@
 package com.pubfactory.test;
 
+// little class to try out csvParser class
+
 public class tryParser {
 
     public static void main(String[] args) {
